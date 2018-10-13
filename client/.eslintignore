@@ -1,0 +1,5 @@
+coverage/**/*.*
+cypress/**/**/*.*
+public/**/*.*
+build/**/*.*
+src/__test__/**/*.*
