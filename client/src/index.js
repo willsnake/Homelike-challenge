@@ -34,17 +34,16 @@ const store = createStore(
 sagaMiddleware.run(rootSaga);
 
 injectGlobal`
-    html,body {
-      margin: 0px;
-      padding: 0px;
-      height: 100%;
-      text-align: center;
-    }
+  html,body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    text-align: center;
+  }
 
-    #root {
-      height: 100%;
-      border: 1px solid black;
-    }
+  #root {
+    height: 100%;
+  }
 `;
 
 render(

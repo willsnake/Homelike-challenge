@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-import { home } from './home';
+import { login } from './login';
 
 const AppReducers = combineReducers({
-  home,
+  login,
   routing: routerReducer,
 });
 
